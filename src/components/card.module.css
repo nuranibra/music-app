@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+.box{
+    background-color: #15037a;
+    width: 20%;
+    height:65vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: calc(0.3s);
+}
+
+.header{
+    background-color:#1e00c7 ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding:5%;
+    display: flex;
+    justify-content: center;
+}
+
+.header > h2{
+    font-family: Roboto;
+    color:#fff;
+    font-size:25px;
+}
+
+.imgBox{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding:2%;
+    box-sizing: border-box;
+}
+
+.imgBox > img{
+    width: 80%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.playBox{
+    background-color: #1e00c7;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:5%;
+    display: flex;
+    justify-content: space-around;
+    color:#fff;
+    font-size:35px;
+}
+
+.box:hover{
+    transform: rotate(-5deg);
+    box-shadow: rgba(0, 0, 0, 0.644) 0px 32px 80px 4px;
+}
+
+.mainBox > h2{
+    font-family: Roboto;
+    color:#fff;
+    font-size:17px;
+}
+
+.mainBox{
+    padding:3%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.progressBar{
+    width: 100%;
+    height: 10px;
+    background-color: #fff;
+}
+
+.progress{
+    width: 30%;
+    height: 100%;
+    background-color: #2600ff;
+}
+
+.timeBox{
+    font-family: Roboto;
+    color:#fff;
+    font-size:10px;
+}

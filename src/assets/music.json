@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Phonk 1",
+        "img": "./../assets/download.jpeg",
+        "voice": "https://soundcloud.com/dirtyworkzofficial/dj-mii-aurede-ft-zhiko-calls-your-name-electric-fox?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing",
+        "id": "1"
+    },
+    {
+        "title": "Phonk 2",
+        "img": "./../assets/download.jpeg",
+        "voice": "./../assets/a.mp3",
+        "id": "2"
+    },
+    {
+        "title": "Phonk 3",
+        "img": "./../assets/download.jpeg",
+        "voice": "./../assets/a.mp3",
+        "id": "3"
+    }
+]
